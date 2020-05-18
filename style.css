@@ -2,10 +2,36 @@
 
 body {
   font-family: helvetica, arial, sans-serif;
-  margin: 2em;
+  
+  background:#d3c3ad
 }
 
 h1 {
-  font-style: italic;
+  font-style: Tahoma, sans-serif;
   color: #373fff;
+}
+
+h3{
+  position:relative;
+  display:inline-block;
+  font-family: Tahoma, sans-serif;
+  color:#604f47;
+  top:50%
+}
+
+header{
+  
+  background:#c9ab31;
+  margin-top:-10px;
+  margin-left:-10px;
+  margin-right:-10px;
+   
+}
+.logo{
+  
+  font-size:60px;
+  vertical-align:middle;
+  margin-left:30px;
+  margin-right:20px;
+  
 }
