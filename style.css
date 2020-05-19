@@ -55,8 +55,11 @@ main{
 
 nav{
   display:inline;
-  position:relative;
-  margin-left:20%;
+  position:fixed;
+  vertical-align:middle;
+  right:20px;
+  top:20px;
+  float:right;
   
   
 }
