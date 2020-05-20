@@ -63,6 +63,8 @@ nav{
   
   
 }
+
+/* this applies to the anchors that are children of the nav element */
 nav>a{
   display:inline-block;
   margin-right:15px;
@@ -71,6 +73,7 @@ nav>a{
   font-style:bold;
    
 }
+/* :hover only applies when a user hovers over a link */
 nav>a:hover{
   
   color:#b99d2e;
