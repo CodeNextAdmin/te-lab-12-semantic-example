@@ -2,6 +2,7 @@
 
 body {
 	font-family: arial, sans-serif;
+  font-size:18px;
 	background: #fffefe;
 	letter-spacing: 1px;
 }
@@ -61,14 +62,18 @@ section{
   height: 450px;
 }
 
+img{
+  border-radius:5%;
+}
+
 #hero-text {
-  
-  width: 50%;
+  width: 30%;
   height: 450px;
   float: right;
 }
 
 #hero h1{
+  display:block;
 	color: #68d5c8;
 	float: left;
 	font-size: 5em;
