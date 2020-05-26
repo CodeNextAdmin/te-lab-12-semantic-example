@@ -1,73 +1,84 @@
 /* CSS files add styling rules to your content */
 
 body {
-  font-family: helvetica, arial, sans-serif;
-  background: #d3c3ad;
+	font-family: arial, sans-serif;
+	background: #fffefe;
+	letter-spacing: 1px;
 }
 
-h1 {
-  color: #373fff;
+h1, h3 {
+	display: inline-block;
+	color: #a26742;
 }
 
-h3 {
-  position: relative;
-  display: inline-block;
-  color: #b48456;
-  top: 50%;
-}
 
 header {
-  background: #40261D;
-  margin-top: -10px;
-  margin-left: -10px;
-  margin-right: -10px;
+	margin-top: -10px;
+	margin-left: -10px;
+	margin-right: -10px;
+	padding-right: 50px;
 }
 
 
 .logo {
-  font-size: 60px;
-  vertical-align: middle;
-  margin-left: 30px;
-  margin-right: 20px;
+	font-size: 60px;
+	margin-left: 30px;
+	margin-right: 20px;
 }
 
-
 nav {
-  display: inline;
-  position: fixed;
-  vertical-align: middle;
-  right: 10px;
-  top: 20px;
-  float: right;
+	display: inline;
+	right: 250px;
+	padding-top: 40px;
+	float: right;
 }
 
 /* this applies to the anchors that are children of the nav element */
 nav > a {
-  display: inline-block;
-  margin-right: 15px;
-  color: #b48456;
-  text-decoration: none;
-  font-style: bold;
+	display: inline-block;
+	margin-right: 25px;
+	color: #b48456;
+	text-decoration: none;
+	font-weight: bold;
 }
 /* :hover only applies when a user hovers over a link */
 nav > a:hover {
-  color: #b99d2e;
+	color: #b99d2e;
 }
-
 
 main {
-  text-align: center;
+	text-align: center;
 }
 
-#hero>h3{
-  vertical-align: middle;
+section{
+	width: 90%;
+	margin: auto;
+	padding: 10px;
+}
+
+#hero-img {
+  margin-right: 25%;
+  height: 450px;
+}
+
+#hero-text {
+  
+  width: 25%;
+  height: 450px;
+  float: right;
+}
+
+#hero h1{
+	color: #68d5c8;
+	float: left;
+	font-size: 5em;
+	margin-top:150px;
 }
 
 footer {
-  background: #40261D;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
+	background: #977950;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
 }
