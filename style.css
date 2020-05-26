@@ -6,14 +6,12 @@ body {
 }
 
 h1 {
-  font-style: Tahoma, sans-serif;
   color: #373fff;
 }
 
 h3 {
   position: relative;
   display: inline-block;
-  font-family: Tahoma, sans-serif;
   color: #b48456;
   top: 50%;
 }
@@ -25,23 +23,14 @@ header {
   margin-right: -10px;
 }
 
-footer {
-  background: #40261D;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-}
+
 .logo {
   font-size: 60px;
   vertical-align: middle;
   margin-left: 30px;
   margin-right: 20px;
 }
-main {
-  text-align: center;
-}
+
 
 nav {
   display: inline;
@@ -63,4 +52,22 @@ nav > a {
 /* :hover only applies when a user hovers over a link */
 nav > a:hover {
   color: #b99d2e;
+}
+
+
+main {
+  text-align: center;
+}
+
+#hero>h3{
+  vertical-align: middle;
+}
+
+footer {
+  background: #40261D;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
