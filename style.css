@@ -2,8 +2,7 @@
 
 body {
   font-family: helvetica, arial, sans-serif;
-  
-  background:#d3c3ad
+  background: #d3c3ad;
 }
 
 h1 {
@@ -11,70 +10,57 @@ h1 {
   color: #373fff;
 }
 
-h3{
-  position:relative;
-  display:inline-block;
+h3 {
+  position: relative;
+  display: inline-block;
   font-family: Tahoma, sans-serif;
-  color:#604f47;
-  top:50%
-  
+  color: #604f47;
+  top: 50%;
 }
 
-header{
-  
-  background:#c9ab31;
-  margin-top:-10px;
-  margin-left:-10px;
-  margin-right:-10px;
-   
+header {
+  background: #977950;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
 }
 
-footer{
-  background:#c9ab31;
+footer {
+  background: #977950;
   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-  text-align:center;
-  
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
-.logo{
-  
-  font-size:60px;
-  vertical-align:middle;
-  margin-left:30px;
-  margin-right:20px;
-  
+.logo {
+  font-size: 60px;
+  vertical-align: middle;
+  margin-left: 30px;
+  margin-right: 20px;
 }
-main{
-  
-  text-align:center;
-  
-  
- }
+main {
+  text-align: center;
+}
 
-nav{
-  display:inline;
-  position:fixed;
-  vertical-align:middle;
-  right:10px;
-  top:20px;
-  float:right;
-  
-  
+nav {
+  display: inline;
+  position: fixed;
+  vertical-align: middle;
+  right: 10px;
+  top: 20px;
+  float: right;
 }
 
 /* this applies to the anchors that are children of the nav element */
-nav>a{
-  display:inline-block;
-  margin-right:15px;
-  color:#b48456;
-  text-decoration:none;
-  font-style:bold;
-   
+nav > a {
+  display: inline-block;
+  margin-right: 15px;
+  color: #b48456;
+  text-decoration: none;
+  font-style: bold;
 }
 /* :hover only applies when a user hovers over a link */
-nav>a:hover{
-  
-  color:#b99d2e;
+nav > a:hover {
+  color: #b99d2e;
 }
