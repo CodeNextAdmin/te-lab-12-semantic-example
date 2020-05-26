@@ -51,19 +51,19 @@ main {
 }
 
 section{
-	width: 90%;
+	width: 80%;
 	margin: auto;
 	padding: 10px;
 }
 
 #hero-img {
-  margin-right: 25%;
+  margin-right: 50%;
   height: 450px;
 }
 
 #hero-text {
   
-  width: 25%;
+  width: 50%;
   height: 450px;
   float: right;
 }
