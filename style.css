@@ -14,19 +14,19 @@ h3 {
   position: relative;
   display: inline-block;
   font-family: Tahoma, sans-serif;
-  color: #604f47;
+  color: #b48456;
   top: 50%;
 }
 
 header {
-  background: #977950;
+  background: #40261D;
   margin-top: -10px;
   margin-left: -10px;
   margin-right: -10px;
 }
 
 footer {
-  background: #977950;
+  background: #40261D;
   position: fixed;
   left: 0;
   bottom: 0;
