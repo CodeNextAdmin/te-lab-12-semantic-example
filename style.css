@@ -37,9 +37,10 @@ nav {
 }
 
 /* this applies to the anchors that are children of the nav element */
-nav > a {
+a {
 	display: inline-block;
 	margin-right: 25px;
+  margin-left: 25px;
 	color: #b48456;
 	text-decoration: none;
 	font-weight: bold;
@@ -89,9 +90,13 @@ img{
 }
 
 footer {
-	background: #977950;
-	left: 0;
-	bottom: 0;
-	width: 100%;
+	background: #d8b688;
 	text-align: center;
+  height:100px;
+  padding:10px;
+}
+
+footer h1{
+  color:white;
+  display:block;
 }
