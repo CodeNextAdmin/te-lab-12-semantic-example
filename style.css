@@ -16,7 +16,6 @@ h1, h3 {
 
 
 header {
-	margin-top: -10px;
 	margin-left: -10px;
 	margin-right: -10px;
 	padding-right: 50px;
@@ -27,12 +26,13 @@ header {
 	font-size: 60px;
 	margin-left: 30px;
 	margin-right: 20px;
+  padding-top: 20px;
 }
 
 nav {
 	display: inline;
 	right: 250px;
-	padding-top: 40px;
+	padding-top: 20px;
 	float: right;
 }
 
@@ -57,7 +57,7 @@ main {
 section{
 	width: 80%;
 	margin: auto;
-	padding: 50px 10px 0px 10px;
+	padding: 30px 10px 30px 10px;
 }
 
 #hero-img {
@@ -88,12 +88,17 @@ img{
   color: #68d5c8;
   font-weight: normal;
 }
+a>img{
+  height:150px;
+  margin: 15px;
+}
 
 footer {
 	background: #d8b688;
 	text-align: center;
   height:100px;
   padding:10px;
+  margin-top:10px;
 }
 
 footer h1{
